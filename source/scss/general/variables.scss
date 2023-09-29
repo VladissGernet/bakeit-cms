@@ -1,0 +1,47 @@
+// Viewports
+$desktop-width: 1440px;
+
+// Fonts
+$general-font: "Montserrat", "Tahoma", sans-serif;
+$title-font: "Arkhip", "Tahoma", sans-serif;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$gold: #9f7303;
+$dark-goldenrod: #856103;
+$dark-olive: #684c05;
+$buff: #f5d581;
+$lotion: #fffdf8;
+$pearl: #fff7e3;
+$floral-white: #fffdf8;
+$bianca: #f4efe2;
+
+// General
+
+html {
+  scroll-behavior: smooth;
+  //Sticky footer
+  height: 100%;
+}
+
+body {
+  min-width: $desktop-width;
+  font-family: $general-font;
+  //Sticky footer
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+//Sticky footer
+.main {
+  flex-grow: 1;
+}
