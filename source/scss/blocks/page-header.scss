@@ -1,0 +1,10 @@
+.page-header {
+  background-color: $black;
+  background-image: url("../img/header/background/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/header/background/header-background@2x.jpg");
+  }
+}
