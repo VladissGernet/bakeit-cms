@@ -10,8 +10,28 @@
 }
 
 .page-header__top {
-  padding: 20px 32px 16px;
+  padding: 20px 164px 16px 32px;
   display: flex;
   flex-wrap: wrap;
   align-items: start;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.page-header__logo {
+  margin-right: 76px;
+}
+
+.page-header__navigation {
+  margin-top: 8px;
+}
+
+.page-header__phone-link {
+  color: $white;
+  padding-top: 2px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
 }
