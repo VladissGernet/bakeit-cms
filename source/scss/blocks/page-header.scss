@@ -1,12 +1,12 @@
 .page-header {
   background-color: $black;
-  background-image: url("../img/header/background/header-background.jpg");
+  background-image: url("../img/general/background/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 120px;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/header/background/header-background@2x.jpg");
+    background-image: url("../img/general/background/header-background@2x.jpg");
   }
 }
 

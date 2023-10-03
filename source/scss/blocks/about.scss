@@ -1,0 +1,51 @@
+.about {
+  margin-bottom: 110px;
+}
+
+.about__gallery {
+  margin: 0 0 120px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.about__technology-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.about__technology {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about ol {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.about ol li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 6px;
+  margin-bottom: 16px;
+}
+
+.about__description-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.about__description-wrapper p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
