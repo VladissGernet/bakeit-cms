@@ -35,3 +35,12 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+.page-header__phone-link:hover {
+  color: $copper;
+  transition: all 0.2s;
+}
+
+.page-header__phone-link:active {
+  opacity: 0.6;
+}
