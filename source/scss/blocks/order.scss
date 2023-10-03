@@ -3,9 +3,161 @@
   background-image: url("../img/general/background/header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 120px;
   padding-bottom: 120px;
 
   @media (min-resolution: 2dppx) {
     background-image: url("../img/general/background/header-background@2x.jpg");
   }
+}
+
+.order__title {
+  font-family: $title-font;
+  font-size: 36px;
+  color: $white;
+  line-height: 54px;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 66px;
+}
+
+.order-form__column-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order-form__column-item {
+  width: 350px;
+  text-align: center;
+}
+
+.order-form .wpcf7-text {
+  background-color: #fffaf3;
+  border: 0;
+  padding: 21px;
+  border-radius: 200px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.order-form .wpcf7-text::placeholder {
+  color: #000000;
+  opacity: 0.2;
+}
+
+.order-form__column-item label {
+  margin-bottom: 11px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.order-form .wpcf7-select {
+  background-color: #fffaf3;
+  border: 0;
+  padding: 21px;
+  border-radius: 200px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  text-align-last: center;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 71%;
+  background-position-y: 25px;
+}
+
+.order-form__column-item p {
+  margin: 0;
+}
+
+.order-form .cf7md-item {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.order-form__checkbox-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-form .wpcf7-list-item {
+  margin-left: 0;
+}
+
+.order-form .wpcf7-list-item input[type="checkbox"] {
+  appearance: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.order-form .wpcf7-list-item-label {
+  position: relative;
+  padding-left: 36px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.order-form .wpcf7-list-item-label::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: #ffb076;
+  border-radius: 5px;
+}
+
+.order-form .wpcf7-list-item input[type="checkbox"]:checked ~ .wpcf7-list-item-label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url("img/icon-checked.svg");
+  background-repeat: no-repeat;
+}
+
+.order-form .wpcf7-submit {
+  background-color: #ffb076;
+  border: 0;
+  padding: 21px;
+  width: 540px;
+  border-radius: 200px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.order-form__submit-wrapper {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.order-form__text {
+  text-align: center;
+  color: #8c8c8c;
 }
